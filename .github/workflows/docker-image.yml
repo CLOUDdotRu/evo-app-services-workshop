@@ -32,10 +32,11 @@ jobs:
             type=raw,value=build{{date 'DDMMYYY'}}
 
       - name: Build and push to Evolution Artifact Registry
-        uses: docker/build-push-action@v4
+        uses: docker/build-push-action@v5
         with:
           push: true
           tags: ${{ steps.backend.outputs.tags }}
           platforms: linux/amd64
+          provenance: false
           file: ./Dockerfile
           context: ./
