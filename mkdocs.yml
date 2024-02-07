@@ -1,6 +1,7 @@
-site_name: Evolution Container Apps Labs
+site_name: GitVerse + Evolution Container Apps
+
 nav:
-  - Home: index.md
+  - Домашняя: index.md
   - Необходимые требования, подготовка среды: prerequisites.md
   - Lab 1 - Развертывание frontend-приложения на React: lab1.md
   - Lab 2 - Развертывание backend-приложения, на языке программирования на выбор python, go, java script, C#: lab2.md
@@ -11,11 +12,6 @@ nav:
 theme:
   name: material
 
-markdown_extension:
-  - toc:
-      toc_depth: 0
 
-repo_url: https://github.com/clouddotru/
-edit_uri: edit/main/docs
 
 copyright: 2024 Powered by Cloud.ru Evolution App Services
