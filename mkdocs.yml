@@ -3,14 +3,18 @@ site_name: GitVerse + Evolution Container Apps
 nav:
   - Домашняя: index.md
   - Необходимые требования, подготовка среды: prerequisites.md
-  - Lab 1 - Развертывание frontend-приложения на React: lab1.md
+  - Lab 1 - Развертывание frontend-приложения: lab1.md
   - Lab 2 - Развертывание backend-приложения, на языке программирования на выбор python, go, java script, C#: lab2.md
-  - Lab 3 - Развертывание full-stack приложения React + ASP.NET Core: lab3.md
+  - Lab 3 - Развертывание fullstack-приложения: lab3.md
 
 
 
 theme:
   name: material
+  features:
+    - content.action.edit
+    - content.action.view
+    - navigation.footer
 
 
 
