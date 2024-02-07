@@ -13,13 +13,6 @@ Evolution Container Apps — это облачный сервис для соз�
 - Lab 2: Развертывание backend-приложения, на языке программирования на выбор: python, go, java script, C#
 - Lab 3: Развертывание full-stack приложения React + ASP.NET Core
 
-## Installation
-```bash
-docker login bondarevsky.cr.cloud.ru -u <keyid> -p <password>
-docker build --tag bondarevsky.cr.cloud.ru/react-hello-world https://github.com/evo/container-app-react-sample.git#main --platform linux/amd64
-docker push bondarevsky.cr.cloud.ru/react-hello-world
-```
-
 ##### Contributions
 Мы будем признательны если вы поучаствуете в создании контента, примеров кода, детали и условия смотрите [CONTRIBUTION.md](https://gitverse.ru/evo){target=_blank} Спасибо!
 
