@@ -27,15 +27,16 @@ jobs:
         id: backend
         uses: docker/metadata-action@v4
         with:
-          images: ${{env.CRURI}}${{env.REPO_NAME}}
+          images: ${{env.CRURI}}/${{env.REPO_NAME}}
           tags: |
-            type=raw,value=backend{{date 'DDMMYYY'}}
+            type=raw,value=build{{date 'DDMMYYY'}}
 
       - name: Build and push to Evolution Artifact Registry
-        uses: docker/build-push-action@v4
+        uses: docker/build-push-action@v5
         with:
           push: true
           tags: ${{ steps.backend.outputs.tags }}
           platforms: linux/amd64
+          provenance: false
           file: ./Dockerfile
           context: ./
