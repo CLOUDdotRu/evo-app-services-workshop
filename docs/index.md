@@ -1,0 +1,25 @@
+# Evolution Container Apps
+
+Evolution Container Apps — это облачный сервис для создания и запуска контейнерных приложений. Контейнеры запускаются из Docker-образов, которые хранятся в приватном защищенном репозитории Evolution Artifact Registry. 
+
+Управление контейнерами Container Apps и образами Artifact Registry доступно в удобном русскоязычном интерфейсе, который позволяет развернуть несложное контейнерное приложение всего за несколько минут.
+
+Сервисы Container Apps и Artifact Registry поддерживают интеграцию со всеми популярными системами CI/CD (GitHub, GitLab, Azure DevOps), чтобы вы смогли организовать командную разработку — настроить автоматическое непрерывное развертывание новых версий контейнеров каждый раз после изменения в исходном коде. 
+
+В этом воркшопе вы познакомитесь с сервисами Container Apps и Artifact Registry и получите практические навыки работы с ними на примере развертывание типовых веб-приложений. 
+
+## Лабораторные работы
+- Lab 1: Развертывание frontend-приложения на React
+- Lab 2: Развертывание backend-приложения, на языке программирования на выбор: python, go, java script, C#
+- Lab 3: Развертывание full-stack приложения React + ASP.NET Core
+
+## Installation
+```bash
+docker login bondarevsky.cr.cloud.ru -u <keyid> -p <password>
+docker build --tag bondarevsky.cr.cloud.ru/react-hello-world https://github.com/evo/container-app-react-sample.git#main --platform linux/amd64
+docker push bondarevsky.cr.cloud.ru/react-hello-world
+```
+
+##### Contributions
+Мы будем признательны если вы поучаствуете в создании контента, примеров кода, детали и условия смотрите [CONTRIBUTION.md](https://gitverse.ru/evo){target=_blank} Спасибо!
+
