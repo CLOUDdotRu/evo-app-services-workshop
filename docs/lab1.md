@@ -3,18 +3,16 @@
 В данной лабораторной работе вы будете использовать репозиторий GitVerse с исходным кодом готового single page application написанного на React, соберете docker-образ, загрузите его в приватный репозиторий Artifact Registry и развернете контейнер в облачной среде Container Apps.
 
 ### 1. (Опционально) Клонируйте репозиторий кода c GitVerse
-
+![revision-running](images/gitverse_clone.png)
 ```
 git clone https://gitverse.ru/sc/mabondarevskiy/evo-app-services-workshop.git
 ``` 
 
 ### 2. Создание реестра в Artifact Registry
 В личном кабинете https://console.cloud.ru перейдите в сервис Artifact Registry и нажмите «Создать реестр».
-<скриншот>
+![revision-running](images/ar_create_registry.png)
 
 Укажите название реестра — оно станет частью URI, который вы будете использовать для аутентификации в Artifact Registry. Название реестра должно быть глобально уникальным в сервисе Artifact Registry. 
-
-<скриншот>
 
 Скопируйте полученный URI реестра, он будет необходим при выполнении дальнейших шагов. 
 
