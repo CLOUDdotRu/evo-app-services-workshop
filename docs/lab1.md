@@ -5,7 +5,7 @@
 ### 1. (Опционально) Клонируйте репозиторий кода c GitVerse
 ![revision-running](images/gitverse_clone.png)
 ```
-git clone https://gitverse.ru/sc/mabondarevskiy/evo-app-services-workshop.git
+git clone https://gitverse.ru/sc/cloudru/evo-app-services-workshop.git
 ``` 
 
 ### 2. Создание реестра в Artifact Registry
@@ -13,6 +13,8 @@ git clone https://gitverse.ru/sc/mabondarevskiy/evo-app-services-workshop.git
 ![revision-running](images/ar_create_registry.png)
 
 Укажите название реестра — оно станет частью URI, который вы будете использовать для аутентификации в Artifact Registry. Название реестра должно быть глобально уникальным в сервисе Artifact Registry. 
+
+![revision-running](images/create_registry.png)
 
 Скопируйте полученный URI реестра, он будет необходим при выполнении дальнейших шагов. 
 

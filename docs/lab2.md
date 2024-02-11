@@ -8,6 +8,24 @@
 git clone https://gitverse.ru/sc/mabondarevskiy/evo-app-services-workshop.git
 ``` 
 
+=== "Python"
+```shell
+https://gitverse.ru/sc/mabondarevskiy/evo-app-services-workshop/restapi-python
+```
+
+=== "Go"
+```shell
+https://gitverse.ru/sc/mabondarevskiy/evo-app-services-workshop/restapi-python
+```
+
+=== ".NET"
+```shell
+https://gitverse.ru/sc/mabondarevskiy/evo-app-services-workshop/restapi-python
+```
+
+| [.NET](/restapi-dotnet) | [NodeJS](/restapi-nodejs) | [Python](/restapi-python) | [Go](/restapi-go) | 
+| ---  | --- | --- | --- |
+
 TODO:
 
 ### Заключение
