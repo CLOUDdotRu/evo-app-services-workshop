@@ -20,7 +20,7 @@ on:
   pull_request:
     branches: [ "main" ]
 env:
-  CRURI: helloworld_registry.cr.cloud.ru
+  CR_URI: helloworld_registry.cr.cloud.ru
   REPO_NAME: helloworld_repository
 jobs:
   build:
@@ -35,7 +35,7 @@ jobs:
       - name: Log in to Evolution Artifact Registry
         uses: docker/login-action@v1
         with:
-          registry: ${{env.CRURI}}
+          registry: ${{ env.CR_URI }}
           username: ${{ secrets.EVO_CR_LOGIN }}
           password: ${{ secrets.EVO_CR_PWD }}
       
@@ -43,7 +43,7 @@ jobs:
         id: backend
         uses: docker/metadata-action@v4
         with:
-          images: ${{env.CRURI}}/${{env.REPO_NAME}}
+          images: ${{env.CR_URI}}/${{env.REPO_NAME}}
           tags: |
             type=raw,value=build{{date 'DDMMYYY'}}
 

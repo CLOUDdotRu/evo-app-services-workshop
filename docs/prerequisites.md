@@ -6,7 +6,7 @@
 
 2. Активируйте два продукта: **Artifact Registry**, **Container Apps**
 
-![beta products](images/beta1.png)
+![beta products](images/activate_preview.png)
 
-3. Установите Docker Desktop -  [Инструкция](https://docs.docker.com/desktop/install/){target=_blank}
+3. Установите Docker Desktop -  [Инструкция](https://www.docker.com/products/docker-desktop){target=_blank}
 4. Установите Git CLI - [Инструкция](https://git-scm.com){target=_blank}
