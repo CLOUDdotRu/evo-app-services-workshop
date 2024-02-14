@@ -7,11 +7,12 @@
 git clone https://gitverse.ru/sc/mabondarevskiy/evo-app-services-workshop.git
 ``` 
 
-TODO:
+![docker-login-push](images/docker_login_push.gif)
+
 
 ### Заключение
 В данной лабораторной работе вы научились:
 
 - использовать встроенный сервисы логгирования и мониторинга
 - добавлять и использовать переменные окружения
-- определять пользовательские health-пробы
+- определять пользовательские health-пробы 

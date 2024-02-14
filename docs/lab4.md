@@ -1,3 +1,17 @@
+# Lab 4: Работа в команде, настройка CI/CD
+В данной лабораторной работе вы научитесь настраивать CI/CD на примере GitHub Actions. 
+
+![dev-experience](images/cicd.svg)
+
+### 1. (Опционально) Клонируйте репозиторий кода
+
+```
+git clone https://gitverse.ru/sc/mabondarevskiy/evo-app-services-workshop.git
+``` 
+
+### 2. docker-image.yml
+
+```
 name: Build and Push docker image to Evolution Artifact Registry
 
 on:
@@ -6,8 +20,8 @@ on:
   pull_request:
     branches: [ "main" ]
 env:
-  CR_URI: 00e4f277-ed62-4685-88d9-71b885bd147b.cr.cloud.ru
-  REPO_NAME: eca-mkdocs
+  CR_URI: helloworld_registry.cr.cloud.ru
+  REPO_NAME: helloworld_repository
 jobs:
   build:
     runs-on: ubuntu-latest    
@@ -29,7 +43,7 @@ jobs:
         id: backend
         uses: docker/metadata-action@v4
         with:
-          images: ${{ env.CR_URI }}/${{ env.REPO_NAME }}
+          images: ${{env.CR_URI}}/${{env.REPO_NAME}}
           tags: |
             type=raw,value=build{{date 'DDMMYYY'}}
 
@@ -42,3 +56,12 @@ jobs:
           provenance: false
           file: ./Dockerfile
           context: ./
+```
+TODO:
+
+### Заключение
+В данной лабораторной работе вы научились:
+
+- использовать встроенный сервисы логгирования и мониторинга
+- добавлять и использовать переменные окружения
+- определять пользовательские health-пробы
