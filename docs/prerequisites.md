@@ -1,12 +1,12 @@
 # Подготовка среды
 
-Перед началом работы необходимо авторизоваться в личном кабинете Cloud.ru и активировать продукты **Container Apps**, **Artifact Registry**.
+Перед началом работы: 
 
-1. Создайте учетную запись в https://console.cloud.ru, если ее пока нет. После регистрации вы получите доступ к личному кабинету.
+1. Создайте учетную запись в [GitVerse](https://gitverse.ru/auth/realms/GitVerse/protocol/openid-connect/auth){target=_blank}.
+2. Создайте учетную запись в [Cloud.ru](https://console.cloud.ru){target=_blank}. После регистрации вы получите доступ к личному кабинету. 
+3. В личном кабинете Cloud.ru подключите сервисы **Container Apps** и **Artifact Registry**.
 
-2. Активируйте два продукта: **Artifact Registry**, **Container Apps**
+   ![beta products](images/activate_preview.png)
 
-![beta products](images/activate_preview.png)
-
-3. Установите Docker Desktop -  [Инструкция](https://www.docker.com/products/docker-desktop){target=_blank}
-4. Установите Git CLI - [Инструкция](https://git-scm.com){target=_blank}
+4. Установите [Docker Desktop](https://www.docker.com/products/docker-desktop){target=_blank}.
+5. Установите [Docker CLI](https://git-scm.com){target=_blank} или используйте привычный терминал на вашем компьютере.
