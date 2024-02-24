@@ -4,33 +4,35 @@
 
 ![dev-experience](images/dev_experience.svg)
 
-### 1. (Опционально) Клонируйте репозиторий кода c GitVerse
-![revision-running](images/gitverse_clone.png)
+### 1. (Опционально) Клонируйте или скачайте репозиторий кода c GitVerse
+
+![gitverse-clone](images/lab1/gitverse_clone.png) 
+
 ```
-git clone https://gitverse.ru/sc/cloudru/evo-containerapp-react-sample.git 
-``` 
+git clone https://gitverse.ru/sc/cloudru/evo-containerapp-react-sample.git
+```
 
 ### 2. Создайте реестр в Artifact Registry
 В [личном кабинете](https://console.cloud.ru){target=_blank} перейдите на карточку сервиса Artifact Registry и нажмите «Создать реестр».
 
-![revision-running](images/ar_create_registry.png)
+![create-firstregistry](images/lab1/ar_create_firstregistry.png)
 
 Укажите название реестра — оно станет частью URI, который вы будете использовать при работе в Docker CLI. 
 
-![revision-running](images/create_registry.png)
+![set-registryname](images/lab1/create_registry.png)
 
 Скопируйте полученный URI реестра, он будет нужен для выполнения дальнейших шагов. 
 
-![revision-running](images/ar_copy-uri.png)
+![revision-running](images/lab1/ar_copy-uri.png)
 
 ### 3. Получите ключи доступа для аутентификации
 В личном кабинете перейдите в раздел «Профиль».
 
-![revision-running](images/ar_profile.png)
+![revision-running](images/lab1/ar_profile.png)
 
 Выберите раздел «Ключи доступа» и нажмите «Создать ключ».
 
-![revision-running](images/ar_profile-create-api-key.png)
+![revision-running](images/lab1/ar__profile-create-api-key.png)
 
 Введите краткое описание ключа, которое поможет в будущем идентифировать его среди других ключей.
 Задайте время жизни ключа: от 1 до 365 дней. 
@@ -74,17 +76,17 @@ react-hello-world — имя будущего репозитория в Artifact
 
 Убедитесь, что в Artifact Registry появился репозиторий с указанным именем и загруженный образ.
 
-![revision-running](images/ar_reestr-image-upload-success.png)
+![revision-running](images/lab1/ar_reestr-image-upload-success.png)
 
 ### 7. Создайте и запустите контейнер
 
 Откройте меню загруженного образа и нажмите **Создать Container App**. 
 
-![revision-running](images/run_from_ar.png)
+![revision-running](images/lab1/run_from_ar.png)
 
 Заполните поля и активируйте опции:
 
-![run_from_ar_form](images/run_from_ar_form.png)
+![run_from_ar_form](images/lab1/run_from_ar_form.png)
 
 **Название контейнера** — глобально уникальное имя, на базе которого формируется адрес вашего приложения в домене *.containers.cloud.ru.
 
@@ -117,7 +119,7 @@ server {
 
 Когда контейнер перейдет в статус **Выполняется**, значит он успешно запущен.
 
-![revision-running](images/ca_running.png)
+![revision-running](images/lab1/ca_running.png)
 
 
 ### 8. Проверьте рабостоспособность развернутного приложения
@@ -126,7 +128,7 @@ server {
 
 Если приложение не отвечает проверьте в списке ревизий, что последняя ревизия (первая по списку) в статусе **Выполняется**.
 
-![revision-running](images/revision_running.png)
+![revision-running](images/lab1/revision_running.png)
     
 🙌 Поздравляем, вы только что развернули frontend-приложение в облачном контейнере и опубликовали его в Интернет!  
 
