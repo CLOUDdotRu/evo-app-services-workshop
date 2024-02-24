@@ -7,7 +7,7 @@
 ### 1. (Опционально) Клонируйте репозиторий кода c GitVerse
 ![revision-running](images/gitverse_clone.png)
 ```
-git clone https://gitverse.ru/sc/cloudru/evo-containerapp-react-sample.git
+git clone https://gitverse.ru/sc/cloudru/evo-containerapp-react-sample.git 
 ``` 
 
 ### 2. Создайте реестр в Artifact Registry
@@ -55,7 +55,7 @@ docker login <URI_реестра> -u <keyid> -p <password>
 Cоберите на локальном компьютере готовый Docker-образ из репозитория GitVerse, выполнив в терминале следующую команду: 
 
 ```shell
-docker build --tag <URI_реестра>/react-hello-world https://gitverse.ru/sc/mabondarevskiy/evo-containerapp-react-sample.git#main --platform linux/amd64
+docker build --tag <URI_реестра>/react-hello-world https://gitverse.ru/sc/cloudru/evo-containerapp-react-sample.git#master --platform linux/amd64
 ```
 Команда собирает образ и тегирует его для дальнейшей загрузки в реестр.
 Для создания контейнера Docker-образ должен быть собран под платформу ***linux/amd64***.
