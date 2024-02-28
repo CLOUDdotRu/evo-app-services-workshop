@@ -6,6 +6,6 @@ Evolution Container Apps — это облачный сервиc для созд
 
 Начните знакомство с сервисами вместе с Cloud.ru Labs — выполняйте лабораторные работы и получайте практические навыки управления контейнерами в облаке на примере развертывания типовых веб-приложений.
 
-- [Подготовка среды](https://gitverse.containers.cloud.ru/prerequisites/){target=_blank}
+- [Подготовка среды](/prerequisites)
 - Lab 1: [Развертывание frontend-приложения](https://gitverse.containers.cloud.ru/lab1/){target=_blank}
 - Lab 2: [Развертывание backend-приложения на Python, Go, Java Script или C#](https://gitverse.containers.cloud.ru/lab2/){target=_blank}
