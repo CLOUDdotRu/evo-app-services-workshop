@@ -1,6 +1,6 @@
 # Знакомство с GitVerse и Evolution Container Apps
 
-Evolution Container Apps — это облачный сервиc для создания и запуска контейнерных приложений, разработанный компанией [Cloud.ru](https://console.cloud.ru){target=_blank}. Контейнеры запускаются из Docker-образов, которые хранятся в приватном защищенном репозитории Evolution Artifact Registry. 
+Evolution Container Apps — это облачный сервиc для создания и запуска контейнерных приложений, разработанный компанией [Cloud.ru](https://cloud.ru){target=_blank}. Контейнеры запускаются из Docker-образов, которые хранятся в приватном защищенном репозитории Evolution Artifact Registry. 
 
 ![revision-running](images/gitverse_containerapps.svg)
 
