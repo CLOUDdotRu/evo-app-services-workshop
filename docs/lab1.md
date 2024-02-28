@@ -51,9 +51,9 @@ docker login <URI_реестра> -u <key_id> -p <key_secret>
 ```
 где: 
 
-- <URI_реестра> — URI, сгенерированный после создания реестра в Artifact Registry.
-- <key_id> — логин персонального ключа (Key ID).
-- <key_secret> — пароль персонального ключа (Key Secret).
+- `<URI_реестра>` — URI, сгенерированный после создания реестра в Artifact Registry.
+- `<key_id>` — логин персонального ключа (Key ID).
+- `<key_secret>` — пароль персонального ключа (Key Secret).
 
 ### 5. Соберите и подготовьте Docker-образ
 
@@ -74,8 +74,8 @@ docker push <URI_реестра>/react-hello-world
 ```
 где: 
 
-- <URI_реестра> — URI, сгенерированный после создания реестра в Artifact Registry.
-- react-hello-world — имя будущего репозитория в Artifact Registry. Имя репозитория должно соответствовать имени Docker-образа. 
+- `<URI_реестра>` — URI, сгенерированный после создания реестра в Artifact Registry.
+- `react-hello-world` — имя будущего репозитория в Artifact Registry. Имя репозитория должно соответствовать имени Docker-образа. 
 
 Убедитесь, что в Artifact Registry появился репозиторий с указанным именем и загруженный образ.
 
