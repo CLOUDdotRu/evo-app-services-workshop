@@ -8,3 +8,8 @@
    ![beta products](images/lab1/evolution-services-on.png)
 1. Установите [Docker Desktop](https://www.docker.com/products/docker-desktop){target=_blank}.
 1. Установите [Docker CLI](https://git-scm.com){target=_blank} или используйте привычный терминал на вашем компьютере.
+
+### Что дальше
+
+- [Lab 1: Развертывание frontend-приложения](/lab1)
+- [Lab 2: Развертывание backend-приложения на Python, Go, Java Script или C#](/lab2)
