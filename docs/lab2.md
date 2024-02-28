@@ -7,15 +7,13 @@
 ```
 git clone https://gitverse.ru/sc/cloudru/evo-containerapp-restapi-js-go-python-dotnet-sample.git 
 ``` 
-В данном репозитории находится исходный код простого REST API приложения, написанного на разных языках
-| [.NET](https://gitverse.ru/sc/cloudru/evo-containerapp-restapi-js-go-python-dotnet-sample/restapi-dotnet) | [NodeJS](/https://gitverse.ru/sc/cloudru/evo-containerapp-restapi-js-go-python-dotnet-sample/restapi-nodejs) | [Python](https://gitverse.ru/sc/cloudru/evo-containerapp-restapi-js-go-python-dotnet-sample/restapi-python) | [Go](https://gitverse.ru/sc/cloudru/evo-containerapp-restapi-js-go-python-dotnet-sample/restapi-go) | 
-| ---  | --- | --- | --- |
+В данном репозитории находится исходный код простого REST API приложения, написанного на разных языках: Java Script, Python, Go, C#.
 
 ### 2. Соберите и присвойте тег образу 
 Используйте реестр, созданный в предыдущей лабораторной работе, выполните следующие команды
 
 ```shell
-docker build --tag <registry_id>.cr.cloud.ru/restapi-python https://gitverse.ru/sc/cloudru/evo-containerapp-restapi-js-go-python-dotnet-sample.git#master:restapi-python/src --platform linux/amd64
+docker build --tag <registry_name>.cr.cloud.ru/restapi-python https://gitverse.ru/sc/cloudru/evo-containerapp-restapi-js-go-python-dotnet-sample.git#master:restapi-python/src --platform linux/amd64
 ```
 
 ### 3. Загрузите Docker-образ в реестр
@@ -23,7 +21,7 @@ docker build --tag <registry_id>.cr.cloud.ru/restapi-python https://gitverse.ru/
 Загрузите образ в реестр Artifact Registry, выполнив команду:
 
 ```bash
-docker push <registry_id>.cr.cloud.ru/restapi-python
+docker push <registry_name>.cr.cloud.ru/restapi-python
 ```
 
 ### 4. Создайте и запустите контейнер
@@ -67,10 +65,6 @@ docker push <registry_id>.cr.cloud.ru/restapi-python
 ![revision-running](images/lab1/revision_running.png)
     
 🙌 Поздравляем, вы только что развернули REST API - приложение в облачном контейнере и опубликовали его в Интернет!  
-
-
-
-
 
 ### Заключение
 В данной лабораторной работе вы научились:
