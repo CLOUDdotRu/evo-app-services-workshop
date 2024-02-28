@@ -8,4 +8,3 @@ Evolution Container Apps — это облачный сервиc для созд
 
 - Lab 1: Развертывание frontend-приложения
 - Lab 2: Развертывание backend-приложения на Python, Go, Java Script или C#
-- Lab 3: Развертывание fullstack-приложения на React + ASP.NET Core
