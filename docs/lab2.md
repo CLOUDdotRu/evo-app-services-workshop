@@ -4,21 +4,25 @@
 
 На примере развертывания backend-приложения вы познакомитесь с дополнительными настройками сервиса Container Apps.
 
-### 1. (Опционально) Клонируйте или скачайте репозиторий кода c GitVerse
+### 1. Подготовка среды
+
+[Подготовьте среду](/prerequisites), если пропустили этот шаг в начале. 
+
+### 2. (Опционально) Клонируйте или скачайте репозиторий кода c GitVerse
 
 ```
 git clone https://gitverse.ru/sc/cloudru/evo-containerapp-restapi-js-go-python-dotnet-sample.git 
 ``` 
 В данном репозитории находится исходный код простого REST API приложения, написанного на разных языках: Java Script, Python, Go, C#.
 
-### 2. Соберите образ и присвойте тег 
-Используйте реестр, созданный в предыдущей лабораторной работе, выполнив следующие команды:
+### 3. Соберите образ и присвойте тег 
+Используйте реестр, созданный в [предыдущей лабораторной работе](/lab1), выполнив следующие команды:
 
 ```shell
 docker build --tag <registry_name>.cr.cloud.ru/restapi-python https://gitverse.ru/sc/cloudru/evo-containerapp-restapi-js-go-python-dotnet-sample.git#master:restapi-python/src --platform linux/amd64
 ```
 
-### 3. Загрузите Docker-образ в реестр
+### 4. Загрузите Docker-образ в реестр
 
 Загрузите образ в реестр Artifact Registry, выполнив команду:
 
@@ -26,7 +30,7 @@ docker build --tag <registry_name>.cr.cloud.ru/restapi-python https://gitverse.r
 docker push <registry_name>.cr.cloud.ru/restapi-python
 ```
 
-### 4. Создайте и запустите контейнер
+### 5. Создайте и запустите контейнер
 
 Откройте меню загруженного образа и нажмите **Создать Container App**. 
 
@@ -57,7 +61,7 @@ docker push <registry_name>.cr.cloud.ru/restapi-python
 
 ![revision-running](images/lab1/ca-container-run.png)
 
-### 5. Проверьте рабостоспособность развернутного приложения
+### 6. Проверьте рабостоспособность развернутного приложения
 
 Дождитесь появления **Публичного URL**, скопируйте его и вставьте в адресную строку браузера.
 
