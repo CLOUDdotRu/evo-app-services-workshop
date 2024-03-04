@@ -3,8 +3,8 @@ site_name: Cloud.ru Labs — Знакомство с GitVerse и Evolution Conta
 nav:
   - Введение: index.md
   - Подготовка среды: prerequisites.md
-  - Lab 1 Развертывание frontend-приложения: lab1.md
-  - Lab 2 Развертывание backend-приложения на Python, Go, Java Script или C#: lab2.md
+  - Lab 1 — Развертывание frontend-приложения: lab1.md
+  - Lab 2 — Развертывание backend-приложения на Python, Go, Java Script или C#: lab2.md
 
 
 
