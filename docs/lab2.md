@@ -63,7 +63,7 @@ docker push <registry_name>.cr.cloud.ru/restapi-python
 
 ### 6. Проверьте рабостоспособность развернутного приложения
 
-Дождитесь появления **Публичного URL**, скопируйте его и вставьте в адресную строку браузера.
+Дождитесь появления **Публичного URL**. REST API будет доступен по адресу `<Публичный_URL>/products`
 
 ![revision-running](images/lab1/ca-public-url.png)
 
