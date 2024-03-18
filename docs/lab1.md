@@ -19,7 +19,12 @@ git clone https://gitverse.ru/sc/cloudru/evo-containerapp-react-sample.git
 ```
 
 ### 3. Создайте реестр в Artifact Registry
-В [личном кабинете](https://console.cloud.ru){target=_blank} перейдите на карточку сервиса Artifact Registry и нажмите «Создать реестр».
+
+В [личном кабинете](https://console.cloud.ru){target=_blank} в левом верхнем углу перейдите в меню ![menu-icon](images/lab1/menu-icon.png) и выберите сервис Artifact Registry. 
+
+![main-menu-ar](images/lab1/main-menu-ar.png)
+
+Нажмите «Создать реестр».
 
 ![create-firstregistry](images/lab1/ar-start.png)
 
