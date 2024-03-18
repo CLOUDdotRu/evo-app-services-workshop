@@ -23,7 +23,7 @@ git clone https://gitverse.ru/sc/cloudru/evo-containerapp-react-sample.git
 
 ![create-firstregistry](images/lab1/ar-start.png)
 
-Укажите название реестра — оно станет частью URI, который вы будете использовать при работе в Docker CLI. 
+Укажите название реестра — оно станет частью URI, который вы будете использовать при работе в Docker CLI. Нажмите «Создать».
 
 ![set-registryname](images/lab1/ar-registry-create.png)
 
