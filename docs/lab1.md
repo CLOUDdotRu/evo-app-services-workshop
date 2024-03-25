@@ -34,7 +34,7 @@ git clone https://gitverse.ru/sc/cloudru/evo-containerapp-react-sample.git
 ![revision-running](images/lab1/ar-registry-copy-uri.png)
 
 ### 4. Получите ключи доступа для аутентификации
-В личном кабинете перейдите в раздел «Профиль».
+В личном кабинете перейдите в раздел «Управление профилем».
 
 ![revision-running](images/lab1/profile-settings.png)
 
