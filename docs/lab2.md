@@ -10,10 +10,13 @@
 
 ### 2. (Опционально) Клонируйте или скачайте репозиторий кода c GitVerse
 
+Вы можете зарегистрироваться в [GitVerse](https://gitverse.ru/auth/realms/GitVerse/protocol/openid-connect/auth){target=_blank}, если у вас еще нет аккаунта, и познакомиться с новой системой контроля версий. Этот шаг необязательный и не влияет на дальнейшее прохождение лабораторной работы. 
+
+В данном репозитории находится исходный код простого REST API приложения, написанного на разных языках: Java Script, Python, Go, C#.
+
 ```
 git clone https://gitverse.ru/sc/cloudru/evo-containerapp-restapi-js-go-python-dotnet-sample.git 
 ``` 
-В данном репозитории находится исходный код простого REST API приложения, написанного на разных языках: Java Script, Python, Go, C#.
 
 ### 3. Соберите образ и присвойте тег 
 Используйте реестр, созданный в [предыдущей лабораторной работе](/lab1), выполнив следующие команды:
@@ -34,11 +37,11 @@ docker push <registry_name>.cr.cloud.ru/restapi-python
 
 Откройте меню загруженного образа и нажмите **Создать Container App**. 
 
-![revision-running](images/lab1/ar-create-container.png)
+![revision-running](images/lab2/ar-create-container-restapi.png)
 
 Заполните поля и активируйте опции:
 
-![run_from_ar_form](images/lab1/ar-create-container-advanced-settings.png)
+![run_from_ar_form](images/lab2/ar-create-container-advanced-settings-restapi.png)
 
 **Название контейнера** — глобально уникальное имя, на базе которого формируется адрес вашего приложения в домене *.containers.cloud.ru.
 
@@ -59,13 +62,13 @@ docker push <registry_name>.cr.cloud.ru/restapi-python
 
 Когда контейнер перейдет в статус **Выполняется**, значит он успешно запущен.
 
-![revision-running](images/lab1/ca-container-run.png)
+![revision-running](images/lab2/ca-container-run-restapi.png)
 
 ### 6. Проверьте рабостоспособность развернутного приложения
 
 Дождитесь появления **Публичного URL**, скопируйте его и вставьте в адресную строку браузера.
 
-![revision-running](images/lab1/ca-public-url.png)
+![revision-running](images/lab2/ca-public-url-restapi.png)
 
 Если приложение не отвечает, перейдите в список ревизий и убедитесь, что последняя созданная ревизия (идет первой в списке) находится в статусе **Выполняется**.
     

@@ -11,6 +11,8 @@
 [Подготовьте среду](/prerequisites), если пропустили этот шаг в начале. 
 
 ### 2. (Опционально) Клонируйте или скачайте репозиторий кода c GitVerse
+ 
+Вы можете зарегистрироваться в [GitVerse](https://gitverse.ru/auth/realms/GitVerse/protocol/openid-connect/auth){target=_blank}, если у вас еще нет аккаунта, и познакомиться с новой системой контроля версий. Этот шаг необязательный и не влияет на дальнейшее прохождение лабораторной работы. 
 
 ![gitverse-clone](images/lab1/gitverse_clone.png) 
 
@@ -32,7 +34,7 @@ git clone https://gitverse.ru/sc/cloudru/evo-containerapp-react-sample.git
 ![revision-running](images/lab1/ar-registry-copy-uri.png)
 
 ### 4. Получите ключи доступа для аутентификации
-В личном кабинете перейдите в раздел «Профиль».
+В личном кабинете перейдите в раздел «Управление профилем».
 
 ![revision-running](images/lab1/profile-settings.png)
 

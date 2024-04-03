@@ -2,7 +2,8 @@
 
 Перед началом работы: 
 
-1. Создайте учетную запись в [GitVerse](https://gitverse.ru/auth/realms/GitVerse/protocol/openid-connect/auth){target=_blank}.
+1. (Опционально) Создайте учетную запись в [GitVerse](https://gitverse.ru/auth/realms/GitVerse/protocol/openid-connect/auth){target=_blank}. 
+   Вы можете зарегистрироваться в GitVerse, если у вас еще нет аккаунта, и познакомиться с новой системой контроля версий. Этот шаг необязательный и не влияет на дальнейшее прохождение лабораторной работы. 
 1. Создайте учетную запись в [Cloud.ru](https://console.cloud.ru){target=_blank}. После регистрации вы получите доступ к личному кабинету. 
 1. В личном кабинете Cloud.ru подключите сервисы **Container Apps** и **Artifact Registry**.
    ![beta products](images/lab1/evolution-services-on.png)
