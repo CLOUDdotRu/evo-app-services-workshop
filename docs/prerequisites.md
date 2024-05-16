@@ -14,3 +14,4 @@
 
 - [Lab 1: Развертывание frontend-приложения](/lab1)
 - [Lab 2: Развертывание backend-приложения на Python, Go, Java Script или C#](/lab2)
+- [Lab 3: Развертывание Telegram-бота на Python](/lab3)
