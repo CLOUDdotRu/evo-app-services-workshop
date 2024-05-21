@@ -82,7 +82,7 @@ docker push <registry_name>.cr.cloud.ru/jupyter-server
 
 ![ca-config](images/lab4/ca-config.png)
 
-Дождитесь, когда контейнер перейдет в статус **Выполняется**, а ревизия — в статус **Готово**.
+Дождитесь, когда контейнер и ревизия перейдут в статус **Выполняется**.
 
 ![ca-container-run](images/lab4/ca-container-run.png)
 
