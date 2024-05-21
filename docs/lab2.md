@@ -32,6 +32,10 @@ docker build --tag <registry_name>.cr.cloud.ru/restapi-python https://gitverse.r
 ```bash
 docker push <registry_name>.cr.cloud.ru/restapi-python
 ```
+где: 
+
+- `<registry_name>` — название реестра, которое вы указывали при его создании в Artifact Registry.
+- `restapi-python` — название будущего репозитория в Artifact Registry. Название репозитория соответствует имени Docker-образа. 
 
 ### 5. Создайте и запустите контейнер
 
