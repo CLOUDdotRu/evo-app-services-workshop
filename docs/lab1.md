@@ -54,11 +54,11 @@ git clone https://gitverse.ru/sc/cloudru/evo-containerapp-react-sample.git
 Откройте терминал и введите команду для аутентификации. Вы можете использовать любой привычный для вас терминал.
 
 ```bash
-docker login <URI_реестра> -u <key_id> -p <key_secret>
+docker login <registry_name>.cr.cloud.ru -u <key_id> -p <key_secret>
 ```
 где: 
 
-- `<URI_реестра>` — URI, сгенерированный после создания реестра в Artifact Registry.
+- `<registry_name>` — название реестра, которок вы указывали при его создании в Artifact Registry.
 - `<key_id>` — логин персонального ключа (Key ID).
 - `<key_secret>` — пароль персонального ключа (Key Secret).
 
@@ -67,7 +67,7 @@ docker login <URI_реестра> -u <key_id> -p <key_secret>
 Cоберите на локальном компьютере готовый Docker-образ из репозитория GitVerse, выполнив в терминале следующую команду: 
 
 ```shell
-docker build --tag <URI_реестра>/react-hello-world https://gitverse.ru/sc/cloudru/evo-containerapp-react-sample.git#master --platform linux/amd64
+docker build --tag <registry_name>.cr.cloud.ru/react-hello-world https://gitverse.ru/sc/cloudru/evo-containerapp-react-sample.git#master --platform linux/amd64
 ```
 Команда собирает образ и тегирует его для дальнейшей загрузки в реестр.
 Для создания контейнера Docker-образ должен быть собран под платформу ***linux/amd64***.
@@ -77,12 +77,12 @@ docker build --tag <URI_реестра>/react-hello-world https://gitverse.ru/sc
 Загрузите образ в реестр Artifact Registry, выполнив команду:
 
 ```bash
-docker push <URI_реестра>/react-hello-world
+docker push <registry_name>.cr.cloud.ru/react-hello-world
 ```
 где: 
 
-- `<URI_реестра>` — URI, сгенерированный после создания реестра в Artifact Registry.
-- `react-hello-world` — имя будущего репозитория в Artifact Registry. Имя репозитория должно соответствовать имени Docker-образа. 
+- `<registry_name>` — название реестра, которое вы указывали при его создании в Artifact Registry.
+- `react-hello-world` — название будущего репозитория в Artifact Registry. Название репозитория соответствует имени Docker-образа. 
 
 Убедитесь, что в Artifact Registry появился репозиторий с указанным именем и загруженный образ.
 

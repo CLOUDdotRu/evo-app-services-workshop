@@ -12,7 +12,7 @@
 
 В данном репозитории находится готовый образ Telegram-бота на языке Python.
 
-```
+```bash
 git clone https://gitverse.ru/sc/cloudru/evo-containerapp-telegrambot-python-sample.git
 ``` 
 
@@ -45,20 +45,24 @@ git clone https://gitverse.ru/sc/cloudru/evo-containerapp-telegrambot-python-sam
 ### 4. Соберите образ и присвойте тег
 
 [В первой лабораторной работе](/lab1) вы создавали реестр в сервисе Artifact Registry для загрузки образа.
-Вы можете использовать текущий реестр или создать новый. Если вы хотите создать новый реестр, пройдите шаги 3-5 из первой лабораторной работы.  
+Вы можете использовать текущий реестр или создать новый. Если хотите создать новый реестр, пройдите шаги 3-5 из первой лабораторной работы.  
 
 Соберите образ и присвойте ему тег, выполнив следующую команду:
 
-```
+```bash
 docker build --tag <registry_name>/telegram-bot-example https://gitverse.ru/sc/cloudru/evo-containerapp-telegrambot-python-sample.git#master --platform linux/amd64
 ```
 ### 5. Загрузите Docker-образ в реестр
 
 Загрузите образ в репозиторий Artifact Registry, выполнив команду:
 
-```
+```bash
 docker push <registry_name>.cr.cloud.ru/telegram-bot-example
 ```
+где: 
+
+- `<registry_name>` — название реестра, которое вы указывали при его создании в Artifact Registry.
+- `restapi-python` — название будущего репозитория в Artifact Registry. Название репозитория соответствует имени Docker-образа. 
 
 В личном кабинете перейдите в репозиторий Artifact Registry и убедитесь, что образ загружен.
 
@@ -100,7 +104,7 @@ docker push <registry_name>.cr.cloud.ru/telegram-bot-example
 
 ![ca-config](images/lab3/ca-config.png)
 
-Дождитесь, когда контейнер перейдет в статус **Выполняется**, а ревизия — в статус **Готово**.
+Дождитесь, когда контейнер и ревизия перейдут в статус **Выполняется**.
 
 ![ca-run](images/lab3/ca-run.png)
 
@@ -119,4 +123,4 @@ docker push <registry_name>.cr.cloud.ru/telegram-bot-example
 - создавать и запускать контейнер через интерфейс сервиса Container Apps;
 - задавать переменные контейнера. 
 
-В следующей лабораторной работе вы научитесь разворачивать fullstack-приложение.
+В следующей лабораторной работе вы научитесь разворачивать Jupyter Server.
