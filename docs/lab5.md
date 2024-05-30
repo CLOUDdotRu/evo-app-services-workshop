@@ -7,7 +7,7 @@
 git clone https://gitverse.ru/sc/mabondarevskiy/evo-app-services-workshop.git
 ``` 
 
-![docker-login-push](images/docker_login_push.gif)
+![docker-login-push](images/gifs/docker_login_push.gif)
 
 
 ### Заключение
