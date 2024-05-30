@@ -4,12 +4,7 @@
 
 ### 1. Подготовьте среду
 
-1. Создайте учетную запись в [GitVerse](https://gitverse.ru/){target=_blank}. 
-1. Создайте учетную запись в [Cloud.ru](https://console.cloud.ru){target=_blank}. После регистрации вы получите доступ к личному кабинету. 
-1. В личном кабинете Cloud.ru подключите сервисы **Container Apps** и **Artifact Registry**.
-   ![beta products](images/lab1/evolution-services-on.png)
-1. Установите [Docker Desktop](https://www.docker.com/products/docker-desktop){target=_blank}.
-1. Установите [Docker CLI](https://git-scm.com){target=_blank} или используйте привычный терминал на вашем компьютере.
+[Подготовьте среду](/prerequisites), если пропустили этот шаг в начале. 
 
 ### 2. Создайте реестр в Artifact Registry и получите ключи доступа
 
@@ -17,7 +12,7 @@
 
 ### 3. Форкните репозиторий кода в GitVerse
 
-Авторизуйтесь в [GitVerse](https://gitverse.ru/){target=_blank}.
+Создайте учетную запись в [GitVerse](https://gitverse.ru/){target=_blank}, если у вас ее еще нет. 
 
 Перейдите в [репозиторий Cloud.ru с примером кода REST API](https://gitverse.ru/cloudru/evo-containerapp-restapi-js-go-python-dotnet-sample){target=_blank} и нажмите **Форк**.
 
