@@ -14,4 +14,5 @@
 
 - [Lab 1: Развертывание frontend-приложения](/lab1)
 - [Lab 2: Развертывание backend-приложения на Python, Go, Java Script или C#](/lab2)
-- [Lab 3: Развертывание Telegram-бота на Python](/lab3)
+- [Lab 3: Развертывание Jupyter Server](/lab3)
+- [Lab 4: Настройка пайплайна CI/CD в GitVerse с использованием Artifact Registry](/lab4)
