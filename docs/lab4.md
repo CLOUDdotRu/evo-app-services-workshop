@@ -35,7 +35,7 @@
 
 ![add-credentials](images/lab4/add-credentials.png)
 
-В репозитории перейдите в директорию **.github → workflows** и откройте YAML-файл. 
+В репозитории перейдите в директорию **.gitverse → workflows** и откройте YAML-файл. 
 
 Откройте режим редактирования и в значение переменной `EVOAR_URI` укажите URI реестра в Artifact Registry.
 Нажмите **Сохранить**. 
