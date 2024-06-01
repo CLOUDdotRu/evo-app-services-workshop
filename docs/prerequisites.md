@@ -9,9 +9,8 @@
    ![beta products](images/lab1/evolution-services-on.png)
 1. Установите [Docker Desktop](https://www.docker.com/products/docker-desktop){target=_blank}.
    
-   > Для работы с базовыми образами из РФ используйте [зеркало Docker Hub](https://gitverse.ru/docs/packages/gitverse-registry/){target=_blank}. 
-   {.is-info}    
-
+      > Для работы с базовыми образами из РФ используйте [зеркало Docker Hub](https://gitverse.ru/docs/packages/gitverse-registry/){target=_blank}. 
+      {.is-warning}  
 1. Установите [Docker CLI](https://git-scm.com){target=_blank} или используйте привычный терминал на вашем компьютере.
 
 ### Что дальше
