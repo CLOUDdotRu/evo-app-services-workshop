@@ -1,7 +1,7 @@
 # Lab 6: Работа в команде, настройка CI/CD
 В данной лабораторной работе вы научитесь настраивать CI/CD на примере GitHub Actions. 
 
-![dev-experience](images/cicd.svg)
+![dev-experience](images/scheme/cicd.svg)
 
 ### 1. (Опционально) Клонируйте репозиторий кода
 
