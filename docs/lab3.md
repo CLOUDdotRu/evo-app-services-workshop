@@ -33,7 +33,7 @@ docker build --platform linux/amd64 -t jupyter-server -f dist/jupyter-server/Doc
 docker tag jupyter-server <registry_name>.cr.cloud.ru/jupyter-server
 ```
 
-Загрузите образ в репозиторий: 
+Загрузите образ в реестр: 
 
 ```bash
 docker push <registry_name>.cr.cloud.ru/jupyter-server

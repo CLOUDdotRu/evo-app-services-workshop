@@ -18,3 +18,4 @@
 - [Lab 2: Развертывание backend-приложения на Python, Go, Java Script или C#](/lab2)
 - [Lab 3: Развертывание Jupyter Server](/lab3)
 - [Lab 4: Настройка пайплайна CI/CD в GitVerse с использованием Artifact Registry](/lab4)
+- [Lab 5: Развертывание Telegram-бота на Python](/lab5)
