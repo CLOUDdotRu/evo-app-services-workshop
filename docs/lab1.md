@@ -4,9 +4,6 @@
 
 Вы загрузите Docker-образ с готовым приложением в реестр, создадите контейнер и опубликуете приложение в интернет.
 
-> Для работы с базовыми образами из РФ используйте [зеркало Docker Hub](https://gitverse.ru/docs/packages/gitverse-registry/){target=_blank}. 
-{.is-warning}  
-
 ![dev-experience](images/scheme/dev_experience.svg)
 
 ### 1. Подготовьте среду
