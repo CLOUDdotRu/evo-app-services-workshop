@@ -17,7 +17,7 @@
 ![gitverse-clone](images/lab1/gitverse_clone.png) 
 
 ```
-git clone https://gitverse.ru/sc/cloudru/evo-containerapp-react-sample.git
+git clone https://gitverse.ru/cloudru/evo-containerapp-react-sample
 ```
 
 ### 3. Создайте реестр в Artifact Registry
