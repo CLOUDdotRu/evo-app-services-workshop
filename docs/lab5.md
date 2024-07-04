@@ -13,7 +13,7 @@
 В данном репозитории находится готовый образ Telegram-бота на языке Python.
 
 ```bash
-git clone https://gitverse.ru/cloudru/evo-containerapp-telegrambot-webhook-python-sample.git
+git clone https://gitverse.ru/sc/cloudru/evo-containerapp-telegrambot-webhook-python-sample.git
 ``` 
 
 ### 3. Зарегистрируйте Telegram-бота
@@ -50,7 +50,7 @@ git clone https://gitverse.ru/cloudru/evo-containerapp-telegrambot-webhook-pytho
 Соберите образ и присвойте ему тег, выполнив следующую команду:
 
 ```bash
-docker build --tag <registry_name>/telegram-bot-example https://gitverse.ru/cloudru/evo-containerapp-telegrambot-webhook-python-sample.git#master --platform linux/amd64
+docker build --tag <registry_name>.cr.cloud.ru/telegram-bot-example https://gitverse.ru/cloudru/evo-containerapp-telegrambot-webhook-python-sample.git#master --platform linux/amd64
 ```
 ### 5. Загрузите Docker-образ в реестр
 
