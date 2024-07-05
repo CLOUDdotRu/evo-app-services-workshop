@@ -2,8 +2,10 @@
 
 В этой лабораторной работе вы будете использовать репозиторий GitVerse с готовым образом Jupyter Server. На примере развертывания Jupyter Server вы познакомитесь с созданием контейнера через интерфейс сервиса Container Apps и дополнительными настройками контейнера.
 
-> Для работы с базовыми образами из РФ используйте [зеркало Docker Hub](https://gitverse.ru/docs/packages/gitverse-registry/){target=_blank}. 
-{.is-warning} 
+<iframe width="560" height="315" 
+  src="https://www.youtube.com/embed/Sk9kYi4AUek?si=f7VJhm4uFyPiWFxB" 
+  title="YouTube video player" frameborder="0" 
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### 1. Подготовьте среду
 

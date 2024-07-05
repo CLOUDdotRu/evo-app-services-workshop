@@ -4,9 +4,6 @@
 
 На примере развертывания backend-приложения вы познакомитесь с дополнительными настройками сервиса Container Apps.
 
-> Для работы с базовыми образами из РФ используйте [зеркало Docker Hub](https://gitverse.ru/docs/packages/gitverse-registry/){target=_blank}. 
-{.is-warning} 
-
 ### 1. Подготовьте среду
 
 [Подготовьте среду](/prerequisites), если пропустили этот шаг в начале. 
