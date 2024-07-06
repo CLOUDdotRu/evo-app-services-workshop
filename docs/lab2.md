@@ -15,14 +15,14 @@
 В данном репозитории находится исходный код простого REST API приложения, написанного на разных языках: Java Script, Python, Go, C#.
 
 ```
-git clone https://gitverse.ru/sc/cloudru/evo-containerapp-restapi-js-go-python-dotnet-sample.git 
+git clone https://gitverse.ru/cloudru/evo-containerapp-restapi-js-go-python-dotnet-sample 
 ``` 
 
 ### 3. Соберите образ и присвойте тег 
 Используйте реестр, созданный в [предыдущей лабораторной работе](/lab1), выполнив следующие команды:
 
 ```shell
-docker build --tag <registry_name>.cr.cloud.ru/restapi-python https://gitverse.ru/sc/cloudru/evo-containerapp-restapi-js-go-python-dotnet-sample.git#master:restapi-python/src --platform linux/amd64
+docker build --tag <registry_name>.cr.cloud.ru/restapi-python https://gitverse.ru/cloudru/evo-containerapp-restapi-js-go-python-dotnet-sample.git#master:restapi-python/src --platform linux/amd64
 ```
 
 ### 4. Загрузите Docker-образ в реестр
