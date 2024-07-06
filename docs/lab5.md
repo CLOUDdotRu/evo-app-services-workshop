@@ -13,7 +13,7 @@
 В данном репозитории находится готовый образ Telegram-бота на языке Python.
 
 ```bash
-git clone https://gitverse.ru/sc/cloudru/evo-containerapp-telegrambot-webhook-python-sample.git
+git clone https://gitverse.ru/cloudru/evo-containerapp-telegrambot-webhook-python-sample
 ``` 
 
 ### 3. Зарегистрируйте Telegram-бота
